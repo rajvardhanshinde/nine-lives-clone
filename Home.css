@@ -1,0 +1,998 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend",sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 80px; 
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    background-color: white;
+    top: 0;
+    z-index: 4;
+}
+
+.wrapper1{
+    display: flex;
+}
+.sub1-wrapper1{
+    width: 130px;
+    height: 100%;
+ 
+}
+.sub2-wrapper1{
+    width: 100%;
+    height: 100%;
+  opacity: 70%;
+    display: flex;
+   align-items: center;
+   font-family:monospace;
+   font-size: 17px;
+   font-weight: 500;  
+}
+.navcontent{
+    margin-left: 40px;
+ 
+}
+.navcontent1{
+    margin-left: 550px;
+
+}
+
+.wrapper2{
+    display: flex;
+    margin-left: 18px;
+}
+.sub1-wrapper2{
+    height: 100%;
+    width: 150px;
+    
+    margin-left: 47px;
+    background-color: #117fa4;
+
+  
+}
+.sub2-wrapper2{
+    height: 100%;
+    width: 150px;
+    
+    background-color: #fd9125;
+
+
+    
+}
+.sub1-wrapper2 div{
+    width: 50px;
+    margin-top: 23px;
+    margin-left: 40px;
+    font-family:monospace;
+    font-size: 20px;
+    color: white;
+    
+}
+.sub2-wrapper2 div{
+    width: 90px;
+    margin-top: 23px;
+    margin-left: 40px;
+    font-family:monospace;
+    font-size: 20px;
+    color: white;
+}
+.img-fluid{
+    max-height: 600px;
+    width: 2000px;
+}
+.text{
+    width: 907px;
+    height: 318px;
+    /* background-color: rgb(100, 90, 90); */
+    font-size: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 7cm;
+    left: 3cm;
+    opacity: 1;
+transform: translate(0);
+transition-timing-function: ease;
+transition-property: opacity,transform;
+  transition-duration: 1s;
+
+    color: #117fa4;
+}
+.lis {
+    /* border: 2px solid red; */
+    width: 120px;
+    list-style: none;
+    position: absolute;
+    top: 55px;
+    z-index: 5;
+left: 663px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    display: none;
+    
+}
+.lis li{
+    width: 150px;
+    margin-left: -12px;
+    margin-top: 10px;
+    font-weight: 600;
+    opacity: 70%;
+}
+.newimg{
+ width: 1024px;
+ height: 318cm;
+ margin-left: 272px;
+ margin-top: 30px;
+}
+
+.fluid1{
+    width: 1024px;
+    height: 328px;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+.box{
+    width: 35cm;
+    height: 293px;
+    /* border: 2px solid green; */
+    margin-left: 3cm;
+    margin-top: 0px;
+    display: flex;
+}
+.box1{
+    width: 8.75cm;
+    background-color: #117fa4;
+    height: 100%;
+    font-size: 40px;
+    padding: 10px;
+    font-weight: 700;
+    color: white;
+}
+.box2{
+    width: 8.75cm;
+    background-color: #9b7f64;
+    height: 100%;
+    background-image: url(https://ninelivesfoundation.org/wp-content/uploads/2022/08/nine-lives-service-cat-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.box3{
+    width: 8.75cm;
+    background-color: #1aad89;
+    height: 100%;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 20px;
+    color: white;
+}
+.box4{
+    width: 8.75cm;
+    background-color: #fd9125;
+    height: 100%;
+    font-size: 40px;
+    padding: 20px;
+    font-weight: 700;
+    color: white;
+}
+.box-1{
+    width: 35cm;
+    height: 293px;
+    /* border: 2px solid rgb(0, 235, 0); */
+    margin-left: 3cm;
+    margin-top: 0px;
+    display: flex;
+}
+.box5{
+    width: 8.75cm;
+    background-color: #fd9125;
+    height: 100%;
+    font-size: 40px;
+    padding: 20px;
+    font-weight: 700;
+    color: white;
+}
+.box6{
+    width: 8.75cm;
+    background-color: #85bed2;
+    height: 100%;
+    font-size: 40px;
+    padding: 20px;
+    font-weight: 700;
+    color: white;
+}
+.box7{
+    width: 8.75cm;
+    background-color: #525c5d;
+    height: 100%;
+    background-image: url(https://ninelivesfoundation.org/wp-content/uploads/2022/08/nine-lives-highlight-cat-2-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.box8{
+    width: 8.75cm;
+    background-color: #1aad89;
+    height: 100%;
+    font-size: 40px;
+    padding: 20px;
+    font-weight: 700;
+    color: white;
+}
+.box-2{
+    width: 35cm;
+    height: 293px;
+    /* border: 2px solid rgb(31, 46, 31); */
+    margin-left: 3cm;
+    margin-top: 0px;
+    display: flex;
+    
+}
+.box9{
+    width: 8.75cm;
+    background-color: #525c5d;
+    height: 100%;
+    background-image: url(https://ninelivesfoundation.org/wp-content/uploads/2022/08/nine-lives-highlight-cat-3-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.box10{
+    width: 8.75cm;
+    background-color: #1aad89;
+    height: 100%;
+    font-size: 40px;
+    padding: 20px;
+    font-weight: 700;
+    color: white;
+}
+.box11{
+    width: 8.75cm;
+    background-color: #fd9125;
+    height: 100%;
+    font-size: 40px;
+    padding: 20px;
+    font-weight: 700;
+    color: white;
+}
+.box12{
+    width: 8.75cm;
+    background-color: #525c5d;
+    height: 100%;
+    background-image:  url(https://ninelivesfoundation.org/wp-content/uploads/2022/09/nine-lives-founation-cat-spay-patient.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    background-size: cover;
+}
+.text{
+    font-size: 80px;
+    font-weight: 1000;
+}
+.text1{
+    font-size: 50px;
+    position: absolute;
+    top: 78cm;
+    left: 200px;
+    font-weight: 600;
+    color: rgb(63, 67, 61);
+}
+.btn{
+    margin-top: 50px;
+    width: 150px;
+    height: 60px;
+    border: white 2px solid;
+    color: white;
+}
+.btn1{
+    margin-top: 120px;
+    width: 150px;
+    height: 60px;
+    border: white 2px solid;
+    color: white;
+}
+.btn{
+border: 2px solid white;
+}
+.num{
+    width: 36cm;
+    height: 6cm;
+    /* border: 2px solid red; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.n1{
+    width: 7cm;
+    height: 100%;
+    /* background-color: #117fa4; */
+    font-size: 80px;
+    padding: 20px;
+    font-weight: 800;
+    color:#fd9125;
+}
+.cat{
+    z-index: 1;
+}
+.n2{
+    width: 7cm;
+    height: 100%;
+    /* background-color: #50585b; */
+    font-size: 80px;
+    padding: 20px;
+    font-weight: 800;
+    color:#fd9125;
+}
+.n3{
+    width: 7cm;
+    height: 100%;
+    /* background-color: #515b50; */
+    font-size: 80px;
+    padding: 20px;
+    font-weight: 800;
+    color:#fd9125;
+}
+.frmimg{
+    width: 1296px;
+height: 442px;
+/* border: 2px solid red; */
+margin: auto;
+  background-image: url(https://ninelivesfoundation.org/wp-content/uploads/2022/08/nine-lives-our-subscribe-bg-1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+margin-top: 50px;
+background-size: cover;
+
+}
+.first{
+    font-weight: 700;
+margin-top: 40px;
+color: #fff;
+text-align: center;
+font-size: 5rem;
+padding-top: 100px;
+}
+.second{
+    font-size: 2rem;
+color: #fff;
+font-weight: 200;
+text-align: center;
+width: 100%;
+display: inline-block;
+}
+.ein{
+    width: 200px;
+    height: 46px;
+    display: inline-block;
+   
+}
+.t-1{
+    display: inline-block;
+}
+.t-2{
+    display: inline-block;
+}
+.btn-third{
+    width: 610px;
+    height:46px ;
+    margin-top: 10px;
+    background-color: #117fa4;
+    border: none;
+    color: white;
+    border-radius: 2px;
+}
+label{
+    font-weight: 600;
+    color: white;
+}
+.frm1{
+    margin-top: 17px;
+
+}
+.third{
+    text-align: center;
+    margin-top: 40px;
+}
+.content-wrapper{
+    width: 27cm;
+    height: 9cm;
+    /* border: 2px solid red; */
+    margin: auto;
+    display: flex;
+    
+    margin-top: 20px;
+}
+.wrap1{
+    width: 50%;
+    height: 100%;
+    /* background-color: #1aad89; */
+    font-family: "Lexend",sans-serif;
+font-size: 3.4rem;
+color: #117fa4;
+font-weight: 700;
+float: right;
+padding: 10px
+
+}
+.wrap2{
+    width: 50%;
+    height: 100%;
+    /* background-color: #919191; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    line-height: 2;
+    opacity: 75%;
+}
+.catbox{
+    width: 36cm;
+    height: 7cm;
+    /* border: 2px solid red; */
+    margin: auto;
+      margin-top: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.catbox1{
+    width: 36cm;
+    height: 7cm;
+    /* border: 2px solid red; */
+    margin: auto;
+      margin-top: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.catbox-1{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    /* background-color: #525c5d; */
+
+}
+.catbox-2{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    /* background-color: #5eafb6; */
+
+}
+.catbox-1 image{
+width: 140px;
+height:140px ;
+border-radius: 100px;
+display: inline-block
+}
+.adopt{
+    font-size: 30px;
+    color: #117fa4;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.ttxt{
+    opacity: 75%;
+    font-size: 17px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
+.bottom-img{
+    width: 100%;
+    height: 576px;
+    background-color: #1aad89;
+    background-image: url(mothacat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+}
+.btn-warning{
+    background-color: #fd9125;
+    color: white;
+    margin-left: 400px;
+    opacity: 100%;
+}
+.bottom-img1{
+    width: 1443px;
+    height:500px;
+    background-color: #ffffff;
+    opacity: 76%;
+    color: #117fa4;
+    margin: auto;
+    align-items: center;
+    font-size: 80px;
+    padding-top: 156px;
+    padding-left: 218px;
+    font-weight: 1000;
+  
+}
+footer{
+    width: 100%;
+    height: 10cm;
+    /* background-color: #525c5d; */
+    display: flex;
+}
+.foot1{
+    width: 33.3%;
+    height: 100%;
+    /* background-color: #fd9125; */
+}
+.foot2{
+    width: 33.3%;
+    height: 100%;
+    /* background-color: #4b443d; */
+}
+.foot3{
+    width: 33.3%;
+    height: 100%;
+    background-color: #ffffff;
+    background-image: url(lasim.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.f-1box1{
+    width: 270px;
+    height: 40px;
+    /* background-color: aqua; */
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #117fa4;
+}
+.footadd li{
+list-style: none;
+
+}
+.footadd{
+    line-height: 2;
+}
+@media screen and (max-width: 480px) {
+    .sub2-wrapper1{
+        display: none;
+    }
+   .hm{
+    display:  block;
+   margin-left: 190px;
+   }
+   .sub1-wrapper2{
+    width: 260px;
+    height: 50px;
+    margin-left: -20px;
+    
+   }
+   .sub1-wrapper2 div{
+    margin-left: 100px;
+    margin-top: 10px;
+   }
+   .sub2-wrapper2 div{
+    margin-left: 50px;
+    margin-top: 10px;
+
+   }
+   .sub2-wrapper2{
+    width: 260px;
+    height: 50px;
+    
+   }
+   #cat{
+    margin-top: 40px;
+    height: 2200px;
+   }
+   .text{
+    font-size: 49px;
+    width: 300px;
+    height: auto;
+    top: 6cm;
+    left: 1cm;
+
+   }
+}
+.row1{
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.row2{
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+  
+}
+.row3{
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+  
+}
+.row1-1{
+    width: 660px;
+    height: 660px;
+    /* border: 2px solid red; */
+    font-size: 5rem;
+    font-weight: 1000;
+    color: #117fa4;
+    padding-top: 120px ;
+  
+    
+}
+.row3-1{
+    width: 660px;
+    height: 660px;
+    /* border: 2px solid red; */
+    font-size: 5rem;
+    font-weight: 1000;
+    color: #117fa4;
+    padding-top: 120px ;
+  
+    
+}
+.row2-2{
+    width: 660px;
+    height: 660px;
+    /* border: 2px solid red; */
+    font-size: 5rem;
+    font-weight: 1000;
+    color: #117fa4;
+    padding-top: 120px ;
+    line-height: 2;
+    
+}
+.row1-2{
+    width: 660px;
+    height: 660px;
+    /* border: 2px solid red; */
+    background-image: url(zoomcat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    
+    
+}
+.row3-2{
+    width: 660px;
+    height: 660px;
+    /* border: 2px solid red; */
+    background-image: url(cat3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    
+    
+}
+.row2-1{
+    line-height: 1;
+    width: 660px;
+    height: 660px;
+    /* border: 2px solid red; */
+    background-image: url(neckcat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    
+    
+}
+.mybtn{
+    width: 126px;
+    height: 63px;
+    background-color: #1aad89;
+    border: none;
+    color: white;
+    font-weight: 700;
+   
+}
+.rowf{
+    font-size: 40px;
+}
+.rows{
+    font-size: 13px;
+    color: #525c5d;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.rowt{
+    font-size: 10px;
+    color: black;
+    opacity: 50%;
+    margin-top: 20px;
+}
+.row2tbn{
+    width: 343px;
+    height: 49.33px;
+    margin-bottom: 20px;
+    background-color: #117fa4;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+.boxf{
+  
+    /* border: 2px solid red; */
+    font-size: 50px;
+    font-weight: 600;
+    color: #117fa4;
+    padding-top: 0px ;
+    
+}
+.boxs{
+    /* border: 2px solid red; */
+    font-size: 15px;
+    font-weight: 600;
+    color: #060707;
+    opacity: 50%;
+    margin-top: 40px;
+    line-height: 2;
+    padding-top: 0px ;
+}
+.smallbox{
+    width: 648px;
+    height: 305px;
+    background-color: #e1f5f0;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 13px;
+    box-shadow: 0px 0px 6px 0px rgb(67, 66, 66);
+}
+.data{
+   text-align: center;
+   opacity: 50%;
+   /* margin-top: 40px; */
+
+}
+/* gfiaifhalhihkjhdibi */
+
+
+.line1-2{
+    width: 660px;
+    height: 660px;
+    background-image: url(vakdicat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.line1-1{
+    width: 660px;
+    height: 660px;
+    font-size: 5rem;
+    font-weight: 1000;
+    color: #117fa4;
+    padding-top: 120px ;
+  
+    
+}
+.line1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.ftxt{
+width: auto;
+height: auto;
+font-size: 60px;
+margin-top: -30px;
+color: #117fa4;
+}
+.om{
+    width: auto;
+height: auto;
+font-size: 22px;
+color: #28363a;
+font-weight: 800;
+opacity: 70%;
+}
+.para{
+    width: auto;
+height: auto;
+font-size: 20px;
+color: #28363a;
+opacity: 60%;
+font-weight: 400;
+margin-top: 30px;
+line-height: 1.5;
+letter-spacing: 0px;
+}
+.line2{
+    height: 662px;
+    width: 100%;
+    background-color: #e8f2f7;
+    padding-top: 80px;
+    margin-top: 60px;
+}
+.line2img{
+    width: 750px;
+    height: 335px;
+    background-image: url(manyimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    border-radius: 5px;
+   
+}
+.line3img{
+    width: 660px;
+    height: 660px;
+    background-image: url(dukan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+   
+}
+.pt{
+    text-align: center;
+    font-size: 20px;
+    opacity: 50%;
+    line-height: 1.5;
+}
+.title{
+    width: 350px;
+    height: auto;
+margin-top: 100px;
+display: flex;
+margin: auto;
+/* margin-top: 100px; */
+text-align: center;
+flex-wrap: wrap;
+font-size: 40px;
+font-weight: 700;
+color: #117fa4;
+}
+.flexy{
+    width: 86%;
+    height: 714px;
+    
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.flexy1{
+    width: 63%;
+    height: 714px;
+    
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.vbox{
+    width: 324px;
+    height: 714px;
+    /* background-color: #1aad89; */
+}
+.for1{
+    width: 180px;
+    height: 180px;
+    background-image: url(man.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+.for1-2{
+    width: 180px;
+    height: 180px;
+    background-image: url(women.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+.for1-3{
+    width: 180px;
+    height: 180px;
+    background-image: url(women2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+.for1-4{
+    width: 180px;
+    height: 180px;
+    background-image: url(women3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+.for11{
+    width: 180px;
+    height: 180px;
+    background-image: url(ww.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+.for12{
+    width: 180px;
+    height: 180px;
+    background-image: url(ww1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+.for13{
+    width: 180px;
+    height: 180px;
+    background-image: url(ww2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+.for2{
+    color: #117fa4;
+    width: auto;
+    height: auto;
+    font-size: 27px;
+text-align: center;
+margin-top: 20px;
+}
+.for3{
+    width: auto;
+    height: auto;
+    color: #35b696;
+    text-align: center;
+}
+.for4{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    opacity: 60%;
+    line-height: 1.5;
+}
+.down{
+    width: 92%;
+    height: 14cm;
+    margin: auto;
+    display: flex;
+}
+.down1{
+    width: 50%;
+    height: 100%;
+}
+.down2{
+    width: 50%;
+    height: 100%;
+background-image: url(catcat.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.ftitle{
+    width: 450px;
+
+height: auto;
+font-size: 40px;
+color: #117fa4;
+margin: auto;
+font-weight: 600;
+margin-top: 0px;
+}
+.flexdown1{
+    width: 100%;
+    height: 75%;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.b1{
+    width: 30%;
+    height: 25%;
+
+}
+.b1 image{
+    width:100px;
+    height: 100px;
+}
